@@ -1,17 +1,17 @@
 /*!
-
+    
  =========================================================
  * Get Shit Done Kit - v1.4.1.0
  =========================================================
-
+ 
  * Product Page: http://www.creative-tim.com/product/get-shit-done-kit
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/timcreative/get-shit-done/blob/master/LICENSE.md)
-
+ 
  =========================================================
-
+ 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
+ 
  */
 
 /*      light colors         */
@@ -183,10 +183,10 @@ input.ct-red + span + label + span.switch-right {
   background-color: #FF3B30; }
 
 .btn {
-  border-width: 5px;
+  border-width: 2px;
   background-color: transparent;
   font-weight: 400;
-  opacity: 0.7;
+  opacity: 0.8;
   filter: alpha(opacity=80);
   padding: 8px 16px;
   border-color: #888888;
@@ -226,7 +226,7 @@ input.ct-red + span + label + span.switch-right {
     background-color: transparent;
     color: #1D62F0;
     border-color: #1D62F0; }
-  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]. , fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
     background-color: transparent;
     border-color: #3472F7; }
   .btn-primary.btn-fill {
@@ -365,7 +365,7 @@ input.ct-red + span + label + span.switch-right {
     background-color: transparent; }
 
 .btn:disabled, .btn[disabled], .btn.disabled {
-  opacity: 0.7;
+  opacity: 0.5;
   filter: alpha(opacity=50); }
 
 .btn-round {
@@ -1201,12 +1201,10 @@ input.ct-red + span + label + span.switch-right {
   transition: all 0.4s;
   -webkit-transition: all 0.4s; }
   .navbar .navbar-brand {
-    font-family: JK Abode;
     font-weight: 600;
     margin: 5px 0px;
-    margin-top: 7px;
     padding: 20px 15px;
-    font-size: 30px; }
+    font-size: 20px; }
   .navbar .navbar-nav > li > a {
     padding: 10px 15px;
     margin: 15px 3px; }
@@ -1231,7 +1229,7 @@ input.ct-red + span + label + span.switch-right {
 
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand {
   color: #FFFFFF;
-  opacity: 1;
+  opacity: 0.9;
   filter: alpha(opacity=90); }
   .navbar-transparent .navbar-brand:focus, .navbar-transparent .navbar-brand:hover, [class*="navbar-ct"] .navbar-brand:focus, [class*="navbar-ct"] .navbar-brand:hover {
     background-color: transparent;
@@ -1243,7 +1241,7 @@ input.ct-red + span + label + span.switch-right {
 [class*="navbar-ct"] .navbar-nav > li > a.btn-default {
   color: #FFFFFF;
   border-color: #FFFFFF;
-  opacity: 0.5;
+  opacity: 0.8;
   filter: alpha(opacity=80); }
 .navbar-transparent .navbar-nav > li > a.btn-default:hover,
 .navbar-transparent .navbar-nav > li > a.btn-default:focus, [class*="navbar-ct"] .navbar-nav > li > a.btn-default:hover,
@@ -1289,7 +1287,7 @@ input.ct-red + span + label + span.switch-right {
 .navbar-transparent .btn-default.btn-fill, [class*="navbar-ct"] .btn-default.btn-fill {
   color: #9A9A9A;
   background-color: #FFFFFF;
-  opacity: 0.7;
+  opacity: 0.9;
   filter: alpha(opacity=90); }
 .navbar-transparent .btn-default.btn-fill:hover,
 .navbar-transparent .btn-default.btn-fill:focus,
@@ -2025,254 +2023,3 @@ input.ct-red + span + label + span.switch-right {
 
   .btn.dropdown-toggle {
     margin-bottom: 0; } }
-
-    /*=========================
-      Icons
-     ================= */
-
-    /* footer social icons */
-    ul.social-network {
-    	list-style: none;
-    	display: inline;
-    	margin-left:0 !important;
-    	padding: 0;
-    }
-    ul.social-network li {
-    	display: inline;
-    	margin: 0 5px;
-    }
-
-
-    /* footer social icons */
-    .social-network a.icoRss:hover {
-    	background-color: #F56505;
-    }
-    .social-network a.icoFacebook:hover {
-    	background-color:#3B5998;
-    }
-    .social-network a.icoTwitter:hover {
-    	background-color:#33ccff;
-    }
-    .social-network a.icoGoogle:hover {
-    	background-color:#BD3518;
-    }
-    .social-network a.icoVimeo:hover {
-    	background-color:#0590B8;
-    }
-    .social-network a.icoLinkedin:hover {
-    	background-color:#007bb7;
-    }
-    .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-    .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-    	color:#fff;
-    }
-    a.socialIcon:hover, .socialHoverClass {
-    	color:#44BCDD;
-    }
-
-    .social-circle li a {
-    	display:inline-block;
-    	position:relative;
-    	margin:0 auto 0 auto;
-    	-moz-border-radius:50%;
-    	-webkit-border-radius:50%;
-    	border-radius:50%;
-    	text-align:center;
-    	width: 50px;
-    	height: 50px;
-    	font-size:20px;
-    }
-    .social-circle li i {
-    	margin:0;
-    	line-height:50px;
-    	text-align: center;
-    }
-
-    .social-circle li a:hover i, .triggeredHover {
-    	-moz-transform: rotate(360deg);
-    	-webkit-transform: rotate(360deg);
-    	-ms--transform: rotate(360deg);
-    	transform: rotate(360deg);
-    	-webkit-transition: all 0.2s;
-    	-moz-transition: all 0.2s;
-    	-o-transition: all 0.2s;
-    	-ms-transition: all 0.2s;
-    	transition: all 0.2s;
-    }
-    .social-circle i {
-    	color: #fff;
-    	-webkit-transition: all 0.8s;
-    	-moz-transition: all 0.8s;
-    	-o-transition: all 0.8s;
-    	-ms-transition: all 0.8s;
-    	transition: all 0.8s;
-    }
-
-
-
-    @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
-    body {
-      font-family: 'Lato', "Helvetica", Arial, sans-serif;
-    }
-
-    /* remove bootstrap gutter*/
-    .row.no-gutter {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .row.no-gutter [class*='col-']:not(:first-child),
-    .row.no-gutter [class*='col-']:not(:last-child) {
-      padding-right: 0;
-      padding-left: 0;
-    }
-
-
-    /* the good stuff */
-    body {
-      padding: 10px;
-    }
-
-    .img-featured-container {
-      overflow: hidden;
-      position: relative;
-    }
-
-    .img-featured-container img {
-      width: 100%;
-      padding: 10px;
-    }
-
-    .img-featured-container .img-backdrop {
-      background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 1;
-      opacity: 0;
-      transition: all 0.3s ease;
-    }
-
-    .img-featured-container:hover > .img-backdrop {
-      opacity: 1;
-    }
-
-    /* center text horizontally and vertically on image hover */
-    .img-featured-container .description-container {
-      color: #fff;
-      font-size: 16px;
-      line-height: 1.2;
-      padding: 0 30px;
-      text-align: center;
-      line-height: 20px;
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      transform-style: preserve-3d;
-      z-index: 2;
-      opacity: 0;
-      transition: all .2s ease;
-    }
-
-    .img-featured-container .description-container .fa-instagram {
-      font-size: 40px;
-    }
-
-    .img-featured-container .description-container p {
-      font-weight: 300;
-      margin-bottom: 0;
-    }
-
-    .img-featured-container:hover .description-container {
-      opacity: 1;
-    }
-
-    .img-featured-container .description-container .caption {
-      display: none;
-      margin-bottom: 10px;
-    }
-
-    .img-featured-container .description-container .likes,
-    .img-featured-container .description-container .comments {
-      margin: 0 5px;
-    }
-
-    /* load more button */
-    #btn-instafeed-load {
-      color: #fff;
-      background: #26a3ff;
-      margin: 20px auto;
-      padding: 8px 12px;
-      display: block;
-      border: none;
-    }
-
-    /* media queries  */
-    @media screen and (min-width:768px) {
-      .img-featured-container .description-container .caption {
-        display: block;
-      }
-    }
-
-
-
-    /* portfolio css */
-
-
-    .gallery-title
-    {
-        font-family: DIN Condensed;
-        font-size: 60px;
-        color: Black;
-        text-align: center;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-    .gallery-title:after {
-        content: "";
-        position: absolute;
-        width: 7.5%;
-        left: 46.5%;
-        height: 45px;
-        margin-top: 10px;
-        border-bottom: 1px solid #5e5e5e;
-    }
-    .filter-button
-    {
-        font-size: 18px;
-        border: 1px solid black;
-        border-radius: 5px;
-        text-align: center;
-        color: black;
-        margin-bottom: 10px;
-
-    }
-    .filter-button:hover
-    {
-        font-size: 18px;
-        border: 1px solid #38AEDD;
-        border-radius: 5px;
-        text-align: center;
-        color: #ffffff;
-        background-color: #38AEDD;
-
-    }
-    .btn-default:active .filter-button:active
-    {
-        background-color: #42B32F;
-        color: white;
-    }
-
-    .port-image
-    {
-        width: 100%;
-    }
-
-    .gallery_product
-    {
-        margin-bottom: 30px;
-    }

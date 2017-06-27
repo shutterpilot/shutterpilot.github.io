@@ -6,13 +6,11 @@
 }
 
 .okolo {
-  max-width: 70%;
 }
 
  .okolohover {
-   background-color: black;
-
-   width: 80%;
+   background-color: white;
+   width: 90%;
    height: auto;
    display: block;
    margin: auto;

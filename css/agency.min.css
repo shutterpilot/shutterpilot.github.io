@@ -10,7 +10,7 @@
 }
 
  .okolohover {
-   background-color: #C37500;
+   background-color: black;
 
    width: 80%;
    height: auto;
@@ -18,7 +18,7 @@
    margin: auto;
  }
  .okolohover img:hover {
-   background-color: #C37500;
+   background-color: white;
    opacity:0.7;
  }
 
